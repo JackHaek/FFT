@@ -6,6 +6,8 @@ B) While there are no other algorithms that perform as well as FFT, there are ot
 
 |  Algorithm  |     Memory     |          Time Complexity         |
 | ----------- | -------------- | -------------------------------- |
-|    FFT      |                |            $O(nlog(n))$          |
-|   Prime     |                |           $O(n\sqrt{n})$         |
-| Cooly-Tukey |                | $O(\frac{nlog_2(n)r}{log_2(r)})$ |
+|    FFT      |    In-Place    |            $O(nlog(n))$          |
+|   Prime     |    In-Place    |           $O(n\sqrt{n})$         |
+| Cooly-Tukey |    In-Place    | $O(\frac{nlog_2(n)r}{log_2(r)})$ |
+
+Since, FFT is used for audio filtering, my lab will focus on attempting to remove background noise from pre-recorded audio files. 
