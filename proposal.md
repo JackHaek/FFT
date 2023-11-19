@@ -6,6 +6,6 @@ B) While there are no other algorithms that perform as well as FFT, there are ot
 
 |  Algorithm  |     Memory     |          Time Complexity         |
 | ----------- | -------------- | -------------------------------- |
-|    FFT      |                |            $O(nlog(n))           |
+|    FFT      |                |            $O(nlog(n))$          |
 |   Prime     |                |           $O(n\sqrt{n})$         |
 | Cooly-Tukey |                | $O(\frac{nlog_2(n)r}{log_2(r)})$ |
