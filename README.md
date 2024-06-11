@@ -103,6 +103,7 @@ $$
 Fast Fourier Transform describes an efficient algorithm for computing DFT. The main concept of FFT is instead of using the matrices described above, we will use 3 sparse matrices where one is a permutation matrix. This takes advantage of symmetrical patters that emerge and brings the computational time complexity down to $O(nlog(n))$!
 
 **Sparse Matrix**
+
 $$
 \omega_N = \begin{bmatrix}
 I_{N/2} & D_{N/2} \\ 
@@ -114,6 +115,7 @@ I_{N/2} & -D_{N/2}
 $$
 
 **Permutation Matrix**
+
 $$
 P_x = \begin{bmatrix}
 x_{even} \\
