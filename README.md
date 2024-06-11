@@ -2,6 +2,8 @@
 
 **Jack Haek**
 
+Note: The following readme is a copy of the information found in the file myfft.ipynb. The LaTeX formatting is much better in notebook form, so I suggest you read it there instead. 
+
 ---
 
 ## What is the Fast Fourier Transform Algorithm
