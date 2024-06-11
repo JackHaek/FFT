@@ -14,11 +14,13 @@ With regards to real world applications, the Fourier Transform is not always sup
 
 
 **FT**
+
 $$
 f(k) = \int_{-\infty}^{\infty}f(x)e^{-2\pi ikx}dx
 $$
 
 **DFT**
+
 $$
 f_k=\sum_{0}^{N-1}x_ne^{\frac{-2\pi ikn}{N}}
 $$
@@ -32,6 +34,7 @@ $$
 Note that with the two coordinate values for $\omega$ we can now think of this as a two dimensional matrix. This is what our new equation looks like:
 
 **DFT**
+
 $$
 f_k=\sum_{0}^{N-1}\omega_{kn}x_n
 $$
