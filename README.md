@@ -120,3 +120,12 @@ x_{even} \\
 x_{odd}
 \end{bmatrix}
 $$
+
+```
+import matplotlib.pyplot as plt
+import numpy as np
+import time
+import warnings
+warnings.filterwarnings("ignore")
+from scipy.fft import fft, fftfreq, fftshift
+```
